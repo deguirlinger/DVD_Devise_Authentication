@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import {Link} from "react-router-dom"
 class Dvds extends React.Component {
   constructor(props) {
     super()
@@ -38,6 +39,7 @@ class Dvds extends React.Component {
             })}
           </tbody>
         </table>
+        <Link to="/new-dvd">Add New DVD</Link>
       </div>
     );
   }

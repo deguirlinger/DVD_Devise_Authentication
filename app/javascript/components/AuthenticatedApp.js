@@ -8,9 +8,8 @@ class AuthenticatedApp extends React.Component {
     return (
       <Router>
        <div>
-         <h1>Authenticated</h1>
-         <Route path="/new-dvd" component={NewDvd} />
-         <Route path="/all-dvds" component={Dvds} />
+        <Route path="/new-dvd" component={NewDvd} />
+        <Route path="/all-dvds" component={Dvds} />
        </div>
      </Router>
     );
